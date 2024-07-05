@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.vendored_frameworks = ['UbiXMMeiYueAdapter/UbiXMMeiYueAdapter.framework']
-  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+  s.pod_target_xcconfig = { 
     'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
  
   
