@@ -13,8 +13,7 @@ Pod::Spec.new do |s|
   s.static_framework = true
 
   s.vendored_frameworks = ['UbiXMMeiYueAdapter/UbiXMMeiYueAdapter.framework']
-  s.pod_target_xcconfig = { 
-    'OTHER_LINK_FLAG' => '$(inherited) -ObjC' }
+  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'], 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
  
   
  s.dependency 'MYIOSAdsSDK', '5.3.26'
