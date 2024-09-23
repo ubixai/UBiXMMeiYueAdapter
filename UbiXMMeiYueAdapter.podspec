@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
   }
   
  s.dependency 'MYIOSAdsSDK', '5.3.26'
- s.dependency 'UBiXMediationSDK', '2.5.0'
+ s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
 
    
