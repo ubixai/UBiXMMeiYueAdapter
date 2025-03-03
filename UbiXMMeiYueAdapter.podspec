@@ -1,7 +1,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'UbiXMMeiYueAdapter'
-  s.version          = '5.5.11.3.0'
+  s.version          = '5.6.10.0'
   s.summary          = 'UBiX聚合广告变现SDK MeiYue Adapter'
   s.homepage         = 'https://www.ubixai.com/product/md'
   # s.license          = { :type => 'MIT', :file => 'LICENSE' }
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
     'VALID_ARCHS' => 'arm64', 'EXCLUDED_ARCHS' => '', 
   }
   
- s.dependency 'MYIOSAdsSDK', '5.5.11.3'
+ s.dependency 'MYIOSAdsSDK', '5.6.10'
  s.dependency 'CocoaAsyncSocket'
  s.dependency 'UBiXMediationSDK'
  s.swift_version = '5.0'
