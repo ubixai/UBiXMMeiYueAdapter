@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.static_framework = true
 
-  s.vendored_frameworks = ['UbiXMMeiYueAdapter/UbiXMMeiYueAdapter.framework']
+  s.vendored_frameworks = ['UbiXMMeiYueAdapter/UbiXMMeiYueAdapter.xcframework']
   s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => ['-ObjC' , '-all_load', '-ld64'], 'VALID_ARCHS' => 'arm64', 'EXCLUDED_ARCHS' => '', }
   s.user_target_xcconfig = {
     'VALID_ARCHS' => 'arm64', 'EXCLUDED_ARCHS' => '', 
